@@ -36,13 +36,13 @@
         font-size: 16px;
         line-height: 24px;
         display: block;
-        width: 388px;
+        width: 100%;
         margin: 0px 0px 40px 0px;
 
     }
 
-    .text button {
-        width: 176px;
+    .text .button {
+        width: 100%;
         height: 48px;
         background-color: #63A6B9;
         border: none;
@@ -50,8 +50,6 @@
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        width: 176px;
-        height: 48px;
 
         color: #FFFFFF;
         text-decoration: none;
@@ -61,7 +59,7 @@
         transition: all 0.5s;
     }
 
-    .text button:hover {
+    .text .button:hover {
         box-shadow: 0px 8px 20px rgba(12, 112, 140, 0.4);
     }
 
@@ -105,13 +103,13 @@
         font-size: 16px;
         line-height: 24px;
         display: block;
-        width: 388px;
+        width: 100%;
         margin: 0px 0px 40px 0px;
 
     }
 
-    .text button {
-        width: 176px;
+    .text .button {
+        width: 100%;
         height: 48px;
         background-color: #63A6B9;
         border: none;
@@ -119,8 +117,6 @@
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        width: 176px;
-        height: 48px;
 
         color: #FFFFFF;
         text-decoration: none;
@@ -130,7 +126,7 @@
         transition: all 0.5s;
     }
 
-    .text button:hover {
+    .text .button:hover {
         box-shadow: 0px 8px 20px rgba(12, 112, 140, 0.4);
     }
 
@@ -173,8 +169,8 @@
 
     }
 
-    .text button {
-        width: 295px;
+    .text .button {
+        width: 100%;
         height: 48px;
         background-color: #63A6B9;
         border: none;
@@ -182,8 +178,6 @@
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
-        width: 300px;
-        height: 48px;
 
         color: #FFFFFF;
         text-decoration: none;
@@ -198,7 +192,7 @@
         height: 100%;
     }
 
-    .text button:hover {
+    .text .button:hover {
         box-shadow: 0px 8px 20px rgba(12, 112, 140, 0.4);
     }
 }

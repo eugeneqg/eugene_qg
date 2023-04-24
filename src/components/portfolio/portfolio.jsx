@@ -57,31 +57,44 @@ const Portfolio = () => {
         }
     }
 
-    if (isModalOpen) {
-
-        return (
-            <div className="background">
-                <ItemModal setIsModalOpen={setIsModalOpen} modalData={postData}/>
-            </div>
-        )
-    } 
-
     return (
 
         <Container id="portfolio" fluid="lg" className="mb-5">
-            <h1 className="main-title">PORTFOLIO</h1>
-            <div className="d-flex justify-content-center mb-5">
-                <button onClick={changeType} className="portfolio-button active">Mobile</button>
-                <button onClick={changeType} className="portfolio-button">Web</button>
-            </div>
-            <Row>
-                <Col lg={12} className="gap-4 d-flex justify-content-center flex-wrap">
-                    {posts}
-                </Col>
-            </Row>
+            <Buttons changeType={changeType}/>
+            {isModalOpen ? 
+                <Modal setIsModalOpen={setIsModalOpen} modalData={postData} /> 
+                        :
+                    <Row>
+                        <Col lg={12} className="gap-4 d-flex justify-content-center flex-wrap">
+                            {posts}
+                        </Col>
+                    </Row>
+            }
         </Container>
 
     )
 }
 
 export default Portfolio;
+
+const Buttons = ({changeType}) => {
+
+    return (
+        <>
+            <h1 className="main-title">PORTFOLIO</h1>
+            <div className="d-flex justify-content-center mb-5">
+                <button onClick={changeType} className="portfolio-button active">Mobile</button>
+                <button onClick={changeType} className="portfolio-button">Web</button>
+            </div>
+        </>
+    )
+
+}
+
+const Modal = ({setIsModalOpen, modalData}) => {
+    return (
+        <div className="background">
+            <ItemModal setIsModalOpen={setIsModalOpen} modalData={modalData}/>
+        </div>
+    )
+}

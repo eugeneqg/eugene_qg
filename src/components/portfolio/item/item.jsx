@@ -1,8 +1,11 @@
 import "./item.css";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Item = ({itemData, getPost}) => {
     return (
-        <img onClick={() => getPost(itemData)} src={itemData.pic} loading="lazy" className="img-fluid mw-100-100 mw-md-50 mw-lg-25 port-image" alt={itemData.alt}></img>
+        <div className="box-container">
+            <LazyLoadImage onClick={() => getPost(itemData)} src={itemData.pic} className="img-fluid mw-100-100 mw-md-50 mw-lg-25 port-image" alt={itemData.alt}/>
+        </div>
     )
 }
 

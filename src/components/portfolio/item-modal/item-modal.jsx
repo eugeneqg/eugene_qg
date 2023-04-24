@@ -11,7 +11,7 @@ const ItemModal = ({modalData, setIsModalOpen}) => {
     const getLink = () => {
         if(modalData.link.length !== 0) {
             return (
-                <a href={modalData.link} target="_blank"><button>Go to project</button></a>
+                <a className="button d-flex align-items-center justify-content-center" href={modalData.link} target="_blank">Go to project</a>
             )
         }
     }
@@ -38,7 +38,7 @@ const ItemModal = ({modalData, setIsModalOpen}) => {
                             <img src={modalData.pic} className="port-modal-pic" alt={modalData.alt}></img>
                         </Col>
                         <Col lg={5} className="d-flex flex-wrap align-items-center text">
-                            <h1>{modalData.title.toUpperCase()}</h1>
+                            <h1 className="mt-4 lg-mt-0">{modalData.title.toUpperCase()}</h1>
                             <p>{modalData.desc}</p>
                             {getLink()}
                         </Col>
