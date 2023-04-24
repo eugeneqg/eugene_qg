@@ -1,0 +1,12 @@
+.menu-link {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    color: #281b19;
+
+    transition: color 0.2s linear;
+}
+
+.menu-link:hover {
+    color: #63A6B9;
+}
+

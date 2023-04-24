@@ -1,0 +1,27 @@
+.lol {
+    gap: 20px;
+}
+
+.port-image {
+    width: 352px;
+}
+
+.portfolio-button {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0;
+    margin-right: 20px;
+
+    color: #b4b4b4;
+
+    background: none;
+    border: none;
+
+    cursor: pointer;
+}
+
+.active {
+    color: #63A6B9;
+}
