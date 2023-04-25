@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/eugeneqg/static/css/main.37e8299f.css",
+    "main.js": "/eugeneqg/static/js/main.3cfd0ee9.js",
+    "static/media/main-banner.mp4": "/eugeneqg/static/media/main-banner.fa20236754344ca3dd56.mp4",
+    "static/media/1.png": "/eugeneqg/static/media/1.4e5241416b7e11fccfe6.png",
+    "static/media/2.png": "/eugeneqg/static/media/2.1ed3bfba0dbef131a627.png",
+    "static/media/js.png": "/eugeneqg/static/media/js.b64576170b6899e7a5a7.png",
+    "static/media/behance.svg": "/eugeneqg/static/media/behance.c06d8ad5375313d72c063b9b75ef0648.svg",
+    "static/media/insta.svg": "/eugeneqg/static/media/insta.a0eff95ce541e932a4b7d00b78f2453c.svg",
+    "static/media/logo.svg": "/eugeneqg/static/media/logo.8f3cf2f9e2e32efc8e21a9585be22022.svg",
+    "static/media/telegram.svg": "/eugeneqg/static/media/telegram.88e1a7b5b3eb28bbc6362eddf763a858.svg",
+    "index.html": "/eugeneqg/index.html",
+    "static/media/mail.svg": "/eugeneqg/static/media/mail.b3ce26b1706154b8f1ab87485b7d4b32.svg",
+    "main.37e8299f.css.map": "/eugeneqg/static/css/main.37e8299f.css.map",
+    "main.3cfd0ee9.js.map": "/eugeneqg/static/js/main.3cfd0ee9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37e8299f.css",
+    "static/js/main.3cfd0ee9.js"
+  ]
+}
