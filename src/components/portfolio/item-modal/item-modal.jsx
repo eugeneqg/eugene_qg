@@ -35,7 +35,7 @@ const ItemModal = ({modalData, setIsModalOpen}) => {
                 <Col md={10}>
                     <div ref={ref} className="item-modal p-4 p-md-5 d-flex flex-wrap align-items-center justify-content-between">
                         <Col lg={6} className="d-flex flex-wrap mb-2">
-                            <img src={modalData.pic} className="port-modal-pic" alt={modalData.alt}></img>
+                            <img src={process.env.PUBLIC_URL + modalData.pic} className="port-modal-pic" alt={modalData.alt}></img>
                         </Col>
                         <Col lg={5} className="d-flex flex-wrap align-items-center text">
                             <h1 className="mt-4 lg-mt-0">{modalData.title.toUpperCase()}</h1>
