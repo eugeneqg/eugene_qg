@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/eugene_qg/static/css/main.2084e898.css",
-    "main.js": "/eugene_qg/static/js/main.983f2c7f.js",
+    "main.css": "/eugene_qg/static/css/main.8df9bdbc.css",
+    "main.js": "/eugene_qg/static/js/main.4cdac58a.js",
     "static/media/main-banner.mp4": "/eugene_qg/static/media/main-banner.fa20236754344ca3dd56.mp4",
     "static/media/1.png": "/eugene_qg/static/media/1.4e5241416b7e11fccfe6.png",
     "static/media/2.png": "/eugene_qg/static/media/2.1ed3bfba0dbef131a627.png",
+    "static/media/ui.png": "/eugene_qg/static/media/ui.accc7b43eebdb8b408b6.png",
     "static/media/js.png": "/eugene_qg/static/media/js.b64576170b6899e7a5a7.png",
-    "static/media/git.svg": "/eugene_qg/static/media/git.5fa5ee84a37c126dc03289642f58817b.svg",
+    "static/media/git.svg": "/eugene_qg/static/media/git.3def18d0c469d8e90208b7b3c41d06d6.svg",
     "static/media/behance.svg": "/eugene_qg/static/media/behance.c06d8ad5375313d72c063b9b75ef0648.svg",
     "static/media/insta.svg": "/eugene_qg/static/media/insta.a0eff95ce541e932a4b7d00b78f2453c.svg",
     "static/media/logo.svg": "/eugene_qg/static/media/logo.8f3cf2f9e2e32efc8e21a9585be22022.svg",
     "static/media/telegram.svg": "/eugene_qg/static/media/telegram.88e1a7b5b3eb28bbc6362eddf763a858.svg",
     "index.html": "/eugene_qg/index.html",
     "static/media/mail.svg": "/eugene_qg/static/media/mail.b3ce26b1706154b8f1ab87485b7d4b32.svg",
-    "main.2084e898.css.map": "/eugene_qg/static/css/main.2084e898.css.map",
-    "main.983f2c7f.js.map": "/eugene_qg/static/js/main.983f2c7f.js.map"
+    "main.8df9bdbc.css.map": "/eugene_qg/static/css/main.8df9bdbc.css.map",
+    "main.4cdac58a.js.map": "/eugene_qg/static/js/main.4cdac58a.js.map"
   },
   "entrypoints": [
-    "static/css/main.2084e898.css",
-    "static/js/main.983f2c7f.js"
+    "static/css/main.8df9bdbc.css",
+    "static/js/main.4cdac58a.js"
   ]
 }
