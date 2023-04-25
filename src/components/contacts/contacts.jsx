@@ -7,6 +7,7 @@ import mail from "./icons/mail.svg";
 import insta from "./icons/insta.svg";
 import telegram from "./icons/telegram.svg";
 import behance from "./icons/behance.svg";
+import git from "./icons/git.svg";
 
 
 const Contacts = () => {
@@ -29,7 +30,7 @@ const Contacts = () => {
                     </Col>
                     <Col>
                         <a href="https://github.com/eugeneqg" className="contact">
-                            <img className="icon" src={behance} alt="behance"/>
+                            <img className="icon" src={git} alt="behance"/>
                             <p className="icon-text">GitHub</p>
                         </a>
                     </Col>
