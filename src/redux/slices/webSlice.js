@@ -33,6 +33,14 @@ const initialState = {
             alt: "airport Domodedovo",
             id: 4,
             link: "https://earnest-bavarois-b61c59.netlify.app"
+        },
+        {
+            pic: "/images/tasty.png",
+            title: `Tasty - a recipe app`,
+            desc: `A website for finding good recipes`,
+            alt: "recipe app",
+            id: 5,
+            link: "https://main--lucent-basbousa-0257d2.netlify.app/"
         }
     ]
 }
