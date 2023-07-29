@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/eugene_qg/static/css/main.8df9bdbc.css",
-    "main.js": "/eugene_qg/static/js/main.4cdac58a.js",
+    "main.js": "/eugene_qg/static/js/main.6d9dc42d.js",
     "static/media/main-banner.mp4": "/eugene_qg/static/media/main-banner.fa20236754344ca3dd56.mp4",
     "static/media/1.png": "/eugene_qg/static/media/1.4e5241416b7e11fccfe6.png",
     "static/media/2.png": "/eugene_qg/static/media/2.1ed3bfba0dbef131a627.png",
@@ -15,10 +15,10 @@
     "index.html": "/eugene_qg/index.html",
     "static/media/mail.svg": "/eugene_qg/static/media/mail.b3ce26b1706154b8f1ab87485b7d4b32.svg",
     "main.8df9bdbc.css.map": "/eugene_qg/static/css/main.8df9bdbc.css.map",
-    "main.4cdac58a.js.map": "/eugene_qg/static/js/main.4cdac58a.js.map"
+    "main.6d9dc42d.js.map": "/eugene_qg/static/js/main.6d9dc42d.js.map"
   },
   "entrypoints": [
     "static/css/main.8df9bdbc.css",
-    "static/js/main.4cdac58a.js"
+    "static/js/main.6d9dc42d.js"
   ]
 }
