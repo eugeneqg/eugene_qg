@@ -35,12 +35,20 @@ const initialState = {
             link: "https://earnest-bavarois-b61c59.netlify.app"
         },
         {
-            pic: "/images/tasty.png",
+            pic: "/images/tasty.jpg",
             title: `Tasty - a recipe app`,
             desc: `A website for finding good recipes`,
             alt: "recipe app",
             id: 5,
             link: "https://main--lucent-basbousa-0257d2.netlify.app/"
+        },
+        {
+            pic: "/images/countdown.jpg",
+            title: `Countdown - a countdown app`,
+            desc: `A simple website for making your countdowns`,
+            alt: "countdown app",
+            id: 6,
+            link: "https://main--benevolent-fudge-664070.netlify.app/"
         }
     ]
 }
